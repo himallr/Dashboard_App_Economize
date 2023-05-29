@@ -1,0 +1,44 @@
+.dashboard-header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  padding-right: 130px;
+}
+
+*/ .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  color: #333333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navigation a:hover {
+  color: #007bff;
+}
+
+nav {
+  background-color: white;
+  padding-left: 180px;
+}

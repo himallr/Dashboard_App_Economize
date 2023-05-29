@@ -1,0 +1,87 @@
+.nav{
+    height: 60px;
+    background-color: white;
+    color: black;
+    display: flex;    
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .nav h2{
+    cursor: pointer;
+  }
+  
+  .logo{
+    display: flex;
+    align-content: center;
+    gap: 20px;
+  }
+  
+  .nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .nav i.bi{
+    font-size: 20px;
+    color: black;
+  }
+  
+  .nav ul li{
+    cursor: pointer;
+  }
+  
+  .sidebar-container{
+    background-color: white;
+    color: black;
+    width: 250px;
+    height: calc(100vh -80px);
+    /* overflow-y :scroll; */
+    overflow-x: hidden;
+  }
+  
+  .nav-option{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px 0 30px;
+    gap: 10px;
+    width: 250px;
+  }
+  
+  .nav-option:hover ,.nav-option:hover i.bi{
+    border-radius: 20px;
+    background-color: lightcyan;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .nav-option i.bi{
+    color: black;
+    font-size: 20px;
+  }
+  
+  @media screen and (min-width: 768px){
+    .navCollapse1{
+      width: 80px;
+    }
+    .navCollapse1 .nav-option h3{
+      display: none;
+    }
+    .navCollapse1 .nav-option{
+      padding: 28px;
+    }
+    .smallDeviceIcon{
+      display: none;
+    }
+  }
+  
+  @media  screen and (max-width: 767px) {
+    .largeDeviceIcon, .sidebar-container, .logo h2{
+      display: none;
+    }
+    .smallNav{
+      display: none;
+    }
+  }
